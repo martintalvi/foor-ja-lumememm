@@ -30,7 +30,7 @@ running = True
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False  # Kui vajutatakse "sulge" nuppu, lõpetatakse tsükkel
+            running = False
 
 # Sulge Pygame'i aken
 pygame.quit()
